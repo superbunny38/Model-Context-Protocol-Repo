@@ -10,11 +10,13 @@ mcp = FastMCP(name = "Calculator",
 
 
 
-# Add a simple calculator tool
+# Add a simple calculator tool for our mcp server
+# Can be anything (ex. connecting to db)
 @mcp.tool()
 def add(a:int, b:int) -> int:
     """ add two numbers together """
     return a+b
+
 
 # Run the server
 if __name__ == "__main__":
@@ -27,3 +29,9 @@ if __name__ == "__main__":
         mcp.run(transport = "sse")
     else:
         raise ValueError(f"Unknown transport: {transport}")
+    
+    
+    
+# in terminal
+# The easiest way to test your server is using the MCP Inspector:
+# mcp dev server.py
