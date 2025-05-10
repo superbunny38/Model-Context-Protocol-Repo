@@ -4,16 +4,17 @@ from dotenv import load_dotenv
 load_dotenv("../.env")
 
 # Create an MCP Server
-mcp = FastMCP(name = "Calculator",
-              host = "0.0.0.0",# only used for SSE transport (localhost)
-              port = 8050,)#only used for SSE transport (set this to any port)
-
+mcp = FastMCP(
+    name = "Calculator",
+    host = "0.0.0.0",# only used for SSE transport (localhost)
+    port = 8050,#only used for SSE transport (set this to any port)
+)
 
 
 # Add a simple calculator tool for our mcp server
 # Can be anything (ex. connecting to db)
 @mcp.tool()
-def add(a:int, b:int) -> int:
+def add(a: int, b: int) -> int:
     """ add two numbers together """
     return a+b
 
@@ -31,7 +32,7 @@ if __name__ == "__main__":
         raise ValueError(f"Unknown transport: {transport}")
     
     
-    
+# pip install uv <- needed!
 # in terminal
 # The easiest way to test your server is using the MCP Inspector:
 # mcp dev server.py
