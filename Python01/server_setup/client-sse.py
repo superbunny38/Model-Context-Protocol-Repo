@@ -13,6 +13,18 @@ Make sure:
 
 To run the server:
 uv run server.py
+
+or
+
+python server.py
+
+
+
+(summmary)
+
+1.runserver
+2.runin
+
 """
 
 
