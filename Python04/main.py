@@ -10,7 +10,7 @@ load_dotenv("../.env")#Load dot env file
 
 # Define a simple Python class which will specify the type of the content that we want our LLM to generate
 class ResearchResponse(BaseModel):#Pydantic model
-    # Specify all of the fields that you want as output from your LLM call
+    # Specify all of the fields that you want as output from your LLM call (can be as complex as you want)
     topic: str
     summary: str
     sources: list[str]
@@ -57,7 +57,7 @@ prompt = ChatPromptTemplate.from_messages(
 agent = create_tool_calling_agent(
     llm = llm,
     prompt = prompt,
-    tools = []
+    tools = []#tools: things that the LLM/agent can use that we can either write ourself or we can bring in from things like the Langchain Community Hub
 )
 
 # Execute agent
@@ -68,6 +68,18 @@ agent_executor = AgentExecutor(agent = agent, tools = [], verbose = True)#verbos
 # raw_response = agent_executor.invoke({"query":query, "name":name})
 raw_response = agent_executor.invoke({"query":"What is the capital of France?","name":"Chaeeun"})
 print(raw_response)
+print("\n\n")
+
+try:
+    structured_response = parser.parse(raw_response.get("output")[0]["text"])
+    print(structured_response)
+    print("\n\n")
+
+    print("Topic:",structured_response.topic)
+    print("\n\n")
+except Exception as e:
+    print("Error parsing response ",e,"Raw Response - ",raw_response)
+
 # try:
 #     structured_response = parser.parse(raw_response.get("output")[0]["text"])
 #     print(structured_response)
