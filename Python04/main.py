@@ -63,9 +63,10 @@ agent = create_tool_calling_agent(
 # Execute agent
 agent_executor = AgentExecutor(agent = agent, tools = [], verbose = True)#verbose = True: we can see the thought process of the agent
 
-query = input("What is the capital of France?")
-name = input("Name?")
-raw_response = agent_executor.invoke({"query":query, "name":name})
+# query = input("What is the capital of France?")
+# name = input("Name?")
+# raw_response = agent_executor.invoke({"query":query, "name":name})
+raw_response = agent_executor.invoke({"query":"What is the capital of France?","name":"Chaeeun"})
 print(raw_response)
 # try:
 #     structured_response = parser.parse(raw_response.get("output")[0]["text"])
