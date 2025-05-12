@@ -12,5 +12,7 @@ search_tool = Tool(
     name = "search",#cannot have any spaces for the name (Use _ or CamelCase)
     func = search.run,
     description= "search the web for information",#Need description so that the agent knows when it should be using this tool
-    
 )
+
+api_wrapper = WikipediaAPIWrapper(top_k_results=3, doc_content_chars_max=100)
+wiki_tool = WikipediaQueryRun(api_wrapper=api_wrapper)

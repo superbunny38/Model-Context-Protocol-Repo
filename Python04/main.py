@@ -5,7 +5,7 @@ from langchain_anthropic import ChatAnthropic
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain.agents import create_tool_calling_agent, AgentExecutor
-from tools import search_tool
+from tools import search_tool, wiki_tool
 
 load_dotenv("../.env")#Load dot env file
 
@@ -52,7 +52,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 
 
-tools = [search_tool]
+tools = [search_tool, wiki_tool]
 
 # Create agent
 agent = create_tool_calling_agent(
@@ -67,7 +67,10 @@ agent_executor = AgentExecutor(agent = agent, tools = tools, verbose = True)#ver
 # query = input("What is the capital of France?")
 # name = input("Name?")
 # raw_response = agent_executor.invoke({"query":query, "name":name})
-raw_response = agent_executor.invoke({"query":"What is the capital of France?","name":"Chaeeun"})
+
+query = input("What can I help you research?:")
+name = input("Who are you?:")
+raw_response = agent_executor.invoke({"query":query,"name":name})
 print(raw_response)
 print("\n\n")
 
