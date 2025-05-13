@@ -3,6 +3,7 @@
 Ref:
 - https://www.youtube.com/watch?v=Pt1tEBCLiCc
 - https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
+- https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive
 
 
 Prompts:
