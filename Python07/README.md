@@ -12,3 +12,7 @@ Prompts:
 - YYYY는 논문의 발행연도를 기입해줘
 - 논문 주저자는 첫 번째 저자를 기입해줘
 - 인용횟수는 semanticscholar.org를 검색해서 citation count를 찾아서 기입해줘
+
+
+## Server local로 활용
+npm install 하면 package.json이 다운 받아짐 
