@@ -26,3 +26,5 @@ claude config 수정시:
 
 Prompts:
 구글 드라이브에서 "NaiveStudentModelTraining.ipynb" 문서를 찾아줘
+
+새로운 기능 개발하고 싶으면 index.ts 고치면 됨
