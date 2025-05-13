@@ -24,7 +24,18 @@ claude config 수정시:
 - command에 /Users/chaeeunryu/Downloads/servers-main/node_modules/.bin/mcp-server-gdrive로 대체 (실행파일임. windows면 .cmd 붙여야함)
 
 
-Prompts:
-구글 드라이브에서 "NaiveStudentModelTraining.ipynb" 문서를 찾아줘
+Prompt:
+- 구글 드라이브에서 "NaiveStudentModelTraining.ipynb" 문서를 찾아줘
 
 새로운 기능 개발하고 싶으면 index.ts 고치면 됨
+
+서버 재시작 command: npm run build
+
+gdrive server credentials json 파일 삭제 (read-only라서)
+
+터미널에 command: node ./dist auth: json 파일 새롭게 생성
+
+claude 종료
+
+Prompt:
+- 구글 드라이브에 Miami Trip 이라는 문서를 불러와서 정리하고 보완하고 다시 구글 드라이브에 저장해줘
