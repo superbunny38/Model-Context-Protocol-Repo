@@ -1,0 +1,78 @@
+{
+  "2407.20234v1": {
+    "title": "Exploring Factors Affecting Student Learning Satisfaction during COVID-19 in South Korea",
+    "authors": [
+      "Jiwon Han",
+      "Chaeeun Ryu",
+      "Gayathri Nadarajan"
+    ],
+    "summary": "Understanding students' preferences and learning satisfaction during COVID-19\nhas focused on learning attributes such as self-efficacy, performance, and\nengagement. Although existing efforts have constructed statistical models\ncapable of accurately identifying significant factors impacting learning\nsatisfaction, they do not necessarily explain the complex relationships among\nthese factors in depth. This study aimed to understand several facets related\nto student learning preferences and satisfaction during the pandemic such as\nindividual learner characteristics, instructional design elements and social\nand environmental factors. Responses from 302 students from Sungkyunkwan\nUniversity, South Korea were collected between 2021 and 2022. Information\ngathered included their gender, study major, satisfaction and motivation levels\nwhen learning, perceived performance, emotional state and learning environment.\nWilcoxon Rank sum test and Explainable Boosting Machine (EBM) were performed to\ndetermine significant differences in specific cohorts. The two core findings of\nthe study are as follows:1) Using Wilcoxon Rank Sum test, we can attest with\n95% confidence that students who took offline classes had significantly higher\nlearning satisfaction, among other attributes, than those who took online\nclasses, as with STEM versus HASS students; 2) An explainable boosting machine\n(EBM) model fitted to 95.08% accuracy determined the top five factors affecting\nstudents' learning satisfaction as their perceived performance, their\nperception on participating in class activities, their study majors, their\nability to conduct discussions in class and the study space availability at\nhome. Positive perceived performance and ability to discuss with classmates had\na positive impact on learning satisfaction, while negative perception on class\nactivities participation had a negative impact on learning satisfaction.",
+    "pdf_url": "http://arxiv.org/pdf/2407.20234v1",
+    "published": "2024-07-12"
+  },
+  "2407.06506v2": {
+    "title": "Information Seeking and Communication among International Students on Reddit",
+    "authors": [
+      "Chaeeun Han",
+      "Sangpil Youm",
+      "Hojeong Yoo",
+      "Sou Hyun Jang"
+    ],
+    "summary": "This study examines the impact of the COVID-19 pandemic on\ninformation-seeking behaviors among international students, with a focus on the\nr/f1visa subreddit. Our study indicates a considerable rise in the number of\nusers posting more than one question during the pandemic. Those asking\nrecurring questions demonstrate more active involvement in communication,\nsuggesting a continuous pursuit of knowledge. Furthermore, the thematic focus\nhas shifted from questions about jobs before COVID-19 to concerns about\nfinances, school preparations, and taxes during COVID-19. These findings carry\nimplications for support policymaking, highlighting the importance of\ndelivering timely and relevant information to meet the evolving needs of\ninternational students. To enhance international students' understanding and\nnavigation of this dynamic environment, future research in this field is\nnecessary.",
+    "pdf_url": "http://arxiv.org/pdf/2407.06506v2",
+    "published": "2024-07-09"
+  },
+  "2504.13674v1": {
+    "title": "Beyond Stereotypes: Exploring How Minority College Students Experience Stigma on Reddit",
+    "authors": [
+      "Chaeeun Han",
+      "Sangpil Youm",
+      "Hojeong Yoo",
+      "Sou Hyun Jang"
+    ],
+    "summary": "Minority college students face unique challenges shaped by their identities\nbased on their gender/sexual orientation, race, religion, and academic\ninstitutions, which influence their academic and social experiences. Although\nresearch has highlighted the challenges faced by individual minority groups,\nthe stigma process-labeling, stereotyping, separation, status loss, and\ndiscrimination-that underpin these experiences remains underexamined,\nparticularly in the online spaces where college students are highly active. We\naddress these gaps by examining posts on subreddit, r/college, as indicators\nfor stigma processes, our approach applies a Stereotype-BERT model, including\nstance toward each stereotype. We extend the stereotype model to encompass\nstatus loss and discrimination by using semantic distance with their reference\nsentences. Our analyses show that professional indicated posts are primarily\nlabeled under the stereotyping stage, whereas posts indicating racial are\nhighly represented in status loss and discrimination. Intersectional identified\nposts are more frequently associated with status loss and discrimination. The\nfindings of this study highlight the need for multifaceted intersectional\napproaches to identifying stigma, which subsequently serve as indicators to\npromote equity for minority groups, especially racial minorities and those\nexperiencing compounded vulnerabilities due to intersecting identities.",
+    "pdf_url": "http://arxiv.org/pdf/2504.13674v1",
+    "published": "2025-04-18"
+  },
+  "2505.02722v1": {
+    "title": "Enhancing LLMs' Clinical Reasoning with Real-World Data from a Nationwide Sepsis Registry",
+    "authors": [
+      "Junu Kim",
+      "Chaeeun Shim",
+      "Sungjin Park",
+      "Su Yeon Lee",
+      "Gee Young Suh",
+      "Chae-Man Lim",
+      "Seong Jin Choi",
+      "Song Mi Moon",
+      "Kyoung-Ho Song",
+      "Eu Suk Kim",
+      "Hong Bin Kim",
+      "Sejoong Kim",
+      "Chami Im",
+      "Dong-Wan Kang",
+      "Yong Soo Kim",
+      "Hee-Joon Bae",
+      "Sung Yoon Lim",
+      "Han-Gil Jeong",
+      "Edward Choi"
+    ],
+    "summary": "Although large language models (LLMs) have demonstrated impressive reasoning\ncapabilities across general domains, their effectiveness in real-world clinical\npractice remains limited. This is likely due to their insufficient exposure to\nreal-world clinical data during training, as such data is typically not\nincluded due to privacy concerns. To address this, we propose enhancing the\nclinical reasoning capabilities of LLMs by leveraging real-world clinical data.\nWe constructed reasoning-intensive questions from a nationwide sepsis registry\nand fine-tuned Phi-4 on these questions using reinforcement learning, resulting\nin C-Reason. C-Reason exhibited strong clinical reasoning capabilities on the\nin-domain test set, as evidenced by both quantitative metrics and expert\nevaluations. Furthermore, its enhanced reasoning capabilities generalized to a\nsepsis dataset involving different tasks and patient cohorts, an open-ended\nconsultations on antibiotics use task, and other diseases. Future research\nshould focus on training LLMs with large-scale, multi-disease clinical datasets\nto develop more powerful, general-purpose clinical reasoning models.",
+    "pdf_url": "http://arxiv.org/pdf/2505.02722v1",
+    "published": "2025-05-05"
+  },
+  "2305.18952v5": {
+    "title": "Exploring the Practicality of Generative Retrieval on Dynamic Corpora",
+    "authors": [
+      "Chaeeun Kim",
+      "Soyoung Yoon",
+      "Hyunji Lee",
+      "Joel Jang",
+      "Sohee Yang",
+      "Minjoon Seo"
+    ],
+    "summary": "Benchmarking the performance of information retrieval (IR) is mostly\nconducted with a fixed set of documents (static corpora). However, in realistic\nscenarios, this is rarely the case and the documents to be retrieved are\nconstantly updated and added. In this paper, we focus on Generative Retrievals\n(GR), which apply autoregressive language models to IR problems, and explore\ntheir adaptability and robustness in dynamic scenarios. We also conduct an\nextensive evaluation of computational and memory efficiency, crucial factors\nfor real-world deployment of IR systems handling vast and ever-changing\ndocument collections. Our results on the StreamingQA benchmark demonstrate that\nGR is more adaptable to evolving knowledge (4-11%), robust in learning\nknowledge with temporal information, and efficient in terms of inference FLOPs\n(x2), indexing time (x6), and storage footprint (x4) compared to Dual Encoders\n(DE), which are commonly used in retrieval systems. Our paper highlights the\npotential of GR for future use in practical IR systems within dynamic\nenvironments.",
+    "pdf_url": "http://arxiv.org/pdf/2305.18952v5",
+    "published": "2023-05-27"
+  }
+}
