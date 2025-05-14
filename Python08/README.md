@@ -7,3 +7,9 @@ Ref:
 uv download (don't use pip):
 https://docs.astral.sh/uv/getting-started/installation/
 
+# Commands
+
+Add the custom server to Claude
+'''
+uv run mcp install main.py
+'''
