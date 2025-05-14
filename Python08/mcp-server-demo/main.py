@@ -52,3 +52,19 @@ def get_latest_note() -> str:
     with open(NOTES_FILE, "r") as f:
         notes = f.readlines()
     return notes[-1].strip() if notes else "No notes found."
+
+@mcp.prompt()
+def note_summary_prompt() -> str:
+    """
+    Generate a prompt that includes all notes and asks for a summary
+
+    Returns:
+        str: A prompt string that includes all notes and asks for a summary.
+             If no notes exist, a message will be shown indicating that.
+    """
+    ensure_file()
+    with open(NOTES_FILE, "r") as f:
+        notes = f.read().strip()
+    if not notes:
+        return "There are no notes yet."
+    return f"Summarize the current notes: {notes}"
