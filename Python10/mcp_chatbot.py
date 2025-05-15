@@ -1,3 +1,5 @@
+
+
 from dotenv import load_dotenv
 from anthropic import Anthropic
 from mcp import ClientSession, StdioServerParameters, types
@@ -82,7 +84,7 @@ class MCP_ChatBot:
         # Create server parameters for stdio connection
         server_params = StdioServerParameters(
             command="uv",
-            args="run example_server.py",
+            args=["run", "example_server.py"],
             env=None,
         )
         
