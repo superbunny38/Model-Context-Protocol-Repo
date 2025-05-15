@@ -2,14 +2,14 @@
 
 from dotenv import load_dotenv
 from anthropic import Anthropic
-from mcp import ClientSession, StdioServerParameters, types
+from mcp import ClientSession, StdioServerParameters, stdio_client
 from typing import List
 import asyncio
 import nest_asyncio
 
 nest_asyncio.apply()#necessary for different operating systems to work in python
 
-# load_dotenv()
+load_dotenv("/Users/chaeeunryu/Desktop/MCP Study/.env")#load the environment variables from the .env file
 
 class MCP_ChatBot:
     
@@ -84,7 +84,7 @@ class MCP_ChatBot:
         # Create server parameters for stdio connection
         server_params = StdioServerParameters(
             command="uv",
-            args=["run", "example_server.py"],
+            args=["run", "server.py"],
             env=None,
         )
         
