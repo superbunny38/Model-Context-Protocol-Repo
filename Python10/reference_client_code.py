@@ -15,6 +15,8 @@ async def run():
     # read: the stream that the client will use to read messages from the server
     # write: the stream that client will use to write messages to the server
     
+    
+    # Context managager
     async with stdio_client(server_params) as (read, write):
         # the Client session is used to initiate the connection
         # and send requests to server
@@ -26,7 +28,7 @@ async def run():
             # List available tools
             tools = await session.list_tools()
             
-            #will call the chat loop here
+            #will call the chat_loop here
             # ....
             
             # Call a tool: this will be in the process_query method
