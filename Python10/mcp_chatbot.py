@@ -9,14 +9,14 @@ import nest_asyncio
 
 nest_asyncio.apply()#necessary for different operating systems to work in python
 
-load_dotenv("/Users/chaeeunryu/Desktop/MCP Study/.env")#load the environment variables from the .env file
-
+# load_dotenv("/Users/chaeeunryu/Desktop/MCP Study/.env")#load the environment variables from the .env file
+api_key = ""
 class MCP_ChatBot:
     
     def __init__(self):
         # Initialize session and client objects
         self.session: ClientSession = None
-        self.anthropic = Anthropic()
+        self.anthropic = Anthropic(api_key = api_key)
         self.available_tools: List[dict] = []
     
     async def process_query(self, query):

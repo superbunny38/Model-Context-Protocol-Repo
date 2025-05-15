@@ -1,0 +1,23 @@
+{
+  "0911.3117v2": {
+    "title": "Optimal investment with inside information and parameter uncertainty",
+    "authors": [
+      "Albina Danilova",
+      "Michael Monoyios",
+      "Andrew Ng"
+    ],
+    "summary": "This paper has been withdrawn by the authors pending corrections.",
+    "pdf_url": "http://arxiv.org/pdf/0911.3117v2",
+    "published": "2009-11-16"
+  },
+  "1206.3959v2": {
+    "title": "Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence (2009)",
+    "authors": [
+      "Jeff Bilmes",
+      "Andrew Ng"
+    ],
+    "summary": "This is the Proceedings of the Twenty-Fifth Conference on Uncertainty in\nArtificial Intelligence, which was held in Montreal, QC, Canada, June 18 - 21\n2009.",
+    "pdf_url": "http://arxiv.org/pdf/1206.3959v2",
+    "published": "2012-06-13"
+  }
+}
