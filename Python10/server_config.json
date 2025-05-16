@@ -10,7 +10,7 @@
         },
         "research":{
             "command": "uv",
-            "args": ["run","research_server.py"]
+            "args": ["run","server.py"]
         },
         "fetch":{
             "command":"uvx",
