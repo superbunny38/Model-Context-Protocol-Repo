@@ -6,7 +6,7 @@ import arxiv
 from typing import List
 from mcp.server.fastmcp import FastMCP
 
-PAPER_DIR = "papers"
+PAPER_DIR = "/Users/chaeeunryu/Desktop/MCP Study/MCP-Python/Python10/papers"
 
 # Initialize the MCP server
 mcp = FastMCP("Research Paper Search")  # name: Research Paper Search
