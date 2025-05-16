@@ -161,7 +161,7 @@ class MCP_Chatbot:
         if not session:
             print(f"Resource '{resource_url}' not found in sessions.")
             return 
-    
+        print(f"DEBUG: Available methods/attributes for session object are: {dir(session)}")
         try:
             result = await session.get_resource(url = resource_url)
             if result and result.contents:
