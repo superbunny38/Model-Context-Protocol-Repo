@@ -68,7 +68,7 @@ class MCP_ChatBot:
             server_params = StdioServerParameters(**server_config)
             stdio_transport = await self.exit_stack.enter_async_context(stdio_client(server_params))
             read, write = stdio_transport
-            session = await self.exist_stack.enter_async_context(ClientSession(read, write))
+            session = await self.exit_stack.enter_async_context(ClientSession(read, write))
             # initialize the session
             await session.initialize()
             self.sessions.append(session)
