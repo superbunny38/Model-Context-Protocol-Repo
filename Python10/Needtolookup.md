@@ -21,3 +21,21 @@
 
 - Sampling
 ![alt text](image-5.png)
+
+
+## Building Effective Agents with MCP
+
+- Sampling + Composability
+![alt text](image-6.png)
+
+- Unified Registry API
+![alt text](image-7.png)
+
+- Self-evolving
+![alt text](image-8.png)
+
+- Server Discovery
+![alt text](image-9.png)
+
+- And a lot more..
+![alt text](image-10.png)
