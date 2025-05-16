@@ -1,0 +1,52 @@
+{
+  "2311.08476v3": {
+    "title": "Deconstructing Alien Hunting",
+    "authors": [
+      "David Kipping",
+      "Jason Wright"
+    ],
+    "summary": "The search for extraterrestrial (alien) life is one of the greatest\nscientific quests yet raises fundamental questions about just what we should be\nlooking for and how. We approach alien hunting from the perspective of an\nexperimenter engaging in binary classification with some true and confounding\npositive probability (TPP and CPP). We derive the Bayes factor in such a\nframework between two competing hypotheses, which we use to classify\nexperiments as either impotent, imperfect or ideal. Similarly, the experimenter\ncan be classified as dogmatic, biased or agnostic. We show how the unbounded\nexplanatory and evasion capability of aliens poses fundamental problems to\nexperiments directly seeking aliens. Instead, we advocate framing the\nexperiments as looking for that outside of known processes, which means the\nhypotheses we test do not directly concern aliens per se. To connect back to\naliens requires a second level of model selection, for which we derive the\nfinal odds ratio in a Bayesian framework. This reveals that it is fundamentally\nimpossible to ever establish alien life at some threshold odds ratio,\n$\\mathcal{O}_{\\mathrm{crit}}$, unless we deem the prior probability that some\nas-yet-undiscovered natural process could explain the event is less than\n$(1+\\mathcal{O}_{\\mathrm{crit}})^{-1}$. This elucidates how alien hunters need\nto carefully consider the challenging problem of how probable unknown unknowns\nare, such as new physics or chemistry, and how it is arguably most fruitful to\nfocus on experiments for which our domain knowledge is thought to be\nasymptotically complete.",
+    "pdf_url": "http://arxiv.org/pdf/2311.08476v3",
+    "published": "2023-11-14"
+  },
+  "1408.1133v1": {
+    "title": "The \u011c Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. I. Background and Justification",
+    "authors": [
+      "J. T. Wright",
+      "B. Mullan",
+      "S. Sigur\u00f0sson",
+      "M. S. Povich"
+    ],
+    "summary": "We motivate the \\^G infrared search for extraterrestrial civilizations with\nlarge energy supplies. We discuss some philosophical difficulties of SETI, and\nhow communication SETI circumvents them. We review \"Dysonian SETI\", the search\nfor artifacts of alien civilizations, and find that it is highly complementary\nto traditional communication SETI; the two together might succeed where either\none, alone, has not. We discuss the argument of Hart (1975) that spacefaring\nlife in the Milky Way should be either galaxy-spanning or non-existent, and\nexamine a portion of his argument that we dub the \"monocultural fallacy\". We\ndiscuss some rebuttals to Hart that invoke sustainability and predict long\nGalaxy colonization timescales. We find that the maximum Galaxy colonization\ntimescale is actually much shorter than previous work has found ($< 10^9$ yr),\nand that many \"sustainability\" counter-arguments to Hart's thesis suffer from\nthe monocultural fallacy. We extend Hart's argument to alien energy supplies,\nand argue that detectably large energy supplies can plausibly be expected to\nexist because life has potential for exponential growth until checked by\nresource or other limitations, and intelligence implies the ability to overcome\nsuch limitations. As such, if Hart's thesis is correct then searches for large\nalien civilizations in other galaxies may be fruitful; if it is incorrect, then\nsearches for civilizations within the Milky Way are more likely to succeed than\nHart argued. We review some past Dysonian SETI efforts, and discuss the promise\nof new mid-infrared surveys, such as that of WISE.",
+    "pdf_url": "http://arxiv.org/pdf/1408.1133v1",
+    "published": "2014-08-05"
+  },
+  "1609.05931v1": {
+    "title": "The Log Log Prior for the Frequency of Extraterrestrial Intelligences",
+    "authors": [
+      "Brian C. Lacki"
+    ],
+    "summary": "It is unclear how frequently life and intelligence arise on planets. I\nconsider a Bayesian prior for the probability P(ETI) that intelligence evolves\nat a suitable site, with weight distributed evenly over ln(1 - ln P(ETI)). This\nlog log prior can handle a very wide range of P(ETI) values, from 1 to\n10^(-10^122), while remaining responsive to evidence about extraterrestrial\nsocieties. It is motivated by our uncertainty in the number of conditions that\nmust be fulfilled for intelligence to arise, and it is related to\nconsiderations of information, entropy, and state space dimensionality. After\nsetting a lower limit to P(ETI) from the number of possible genome sequences, I\ncalculate a Bayesian confidence of 18% that aliens exist within the observable\nUniverse. With different assumptions about the minimum P(ETI) and the number of\ntimes intelligence can appear on a planet, this value falls between 1.4% and\n47%. Overall, the prior leans towards our being isolated from extraterrestrial\nintelligences, but indicates that we should not be confident of this\nconclusion. I discuss the implications of the prior for the Search for\nExtraterrestrial Intelligence, concluding that searches for interstellar probes\nfrom nearby societies seem relatively effective. I also discuss the possibility\nof very small probabilities allowed by the prior for the origin of life and the\nFermi Paradox, and note that similar priors might be constructed for\ninteresting complex phenomena in general.",
+    "pdf_url": "http://arxiv.org/pdf/1609.05931v1",
+    "published": "2016-09-19"
+  },
+  "1410.7374v1": {
+    "title": "Internalizing Null Extraterrestrial \"Signals\": An Astrobiological App for a Technological Society",
+    "authors": [
+      "Eric J. Chaisson"
+    ],
+    "summary": "One of the beneficial outcomes of searching for life in the Universe is that\nit grants greater awareness of our own problems here on Earth. Lack of contact\nwith alien beings to date might actually comprise a null \"signal\" pointing\nhumankind toward a viable future. Astrobiology has surprising practical\napplications to human society; within the larger cosmological context of cosmic\nevolution, astrobiology clarifies the energetic essence of complex systems\nthroughout the Universe, including technological intelligence that is\nintimately dependent on energy and likely will be for as long as it endures.\nThe \"message\" contained within the \"signal\" with which today's society needs to\ncope is reasonably this: Only solar energy can power our civilization going\nforward without soiling the environment with increased heat yet robustly\ndriving the economy with increased per capita energy usage. The null \"signals\"\nfrom extraterrestrials also offer a rational solution to the Fermi paradox as a\nprinciple of cosmic selection likely limits galactic civilizations in time as\nwell as in space: Those advanced life-forms anywhere in the Universe that\nwisely adopt, and quickly too, the energy of their parent star probably\nsurvive, and those that don't, don't.",
+    "pdf_url": "http://arxiv.org/pdf/1410.7374v1",
+    "published": "2014-10-27"
+  },
+  "1704.08404v1": {
+    "title": "Astronomic Bioethics: Terraforming X Planetary protection",
+    "authors": [
+      "Dario Palhares",
+      "\u00cdris Almeida dos Santos"
+    ],
+    "summary": "A hard difficulty in Astrobiology is the precise definition of what life is.\nAll living beings have a cellular structure, so it is not possible to have a\nbroader concept of life hence the search for extraterrestrial life is\nrestricted to extraterrestrial cells. Earth is an astronomical rarity because\nit is difficult for a planet to present liquid water on the surface. Two\nantagonistic bioethical principles arise: planetary protection and\nterraforming. Planetary protection is based on the fear of interplanetary\ncross-infection and possible ecological damages caused by alien living beings.\nTerraforming is the intention of modifying the environmental conditions of the\nneighbouring planets in such a way that human colonisation would be possible.\nThe synthesis of this antagonism is ecopoiesis, a concept related to the\ncreation of new ecosystems in other planets. Since all the multicellular\nbiodiversity requires oxygen to survive, only extremophile microorganisms could\nsurvive in other planets. So, it could be carried out a simulation of a\nmeteorite by taking to other planets portions of the terrestrial permafrost, or\nocean or soil, so that if a single species could grow, a new ecosystem would\nstart, as well as a new Natural History. As a conclusion, ecopoiesis should be\nthe bioethical principle to guide practices and research in Astrobiology.",
+    "pdf_url": "http://arxiv.org/pdf/1704.08404v1",
+    "published": "2017-04-27"
+  }
+}
