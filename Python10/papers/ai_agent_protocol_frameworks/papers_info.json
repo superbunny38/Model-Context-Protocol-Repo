@@ -1,0 +1,65 @@
+{
+  "2504.19678v1": {
+    "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+    "authors": [
+      "Mohamed Amine Ferrag",
+      "Norbert Tihanyi",
+      "Merouane Debbah"
+    ],
+    "summary": "Large language models and autonomous AI agents have evolved rapidly,\nresulting in a diverse array of evaluation benchmarks, frameworks, and\ncollaboration protocols. However, the landscape remains fragmented and lacks a\nunified taxonomy or comprehensive survey. Therefore, we present a side-by-side\ncomparison of benchmarks developed between 2019 and 2025 that evaluate these\nmodels and agents across multiple domains. In addition, we propose a taxonomy\nof approximately 60 benchmarks that cover general and academic knowledge\nreasoning, mathematical problem-solving, code generation and software\nengineering, factual grounding and retrieval, domain-specific evaluations,\nmultimodal and embodied tasks, task orchestration, and interactive assessments.\nFurthermore, we review AI-agent frameworks introduced between 2023 and 2025\nthat integrate large language models with modular toolkits to enable autonomous\ndecision-making and multi-step reasoning. Moreover, we present real-world\napplications of autonomous AI agents in materials science, biomedical research,\nacademic ideation, software engineering, synthetic data generation, chemical\nreasoning, mathematical problem-solving, geographic information systems,\nmultimedia, healthcare, and finance. We then survey key agent-to-agent\ncollaboration protocols, namely the Agent Communication Protocol (ACP), the\nModel Context Protocol (MCP), and the Agent-to-Agent Protocol (A2A). Finally,\nwe discuss recommendations for future research, focusing on advanced reasoning\nstrategies, failure modes in multi-agent LLM systems, automated scientific\ndiscovery, dynamic tool integration via reinforcement learning, integrated\nsearch capabilities, and security vulnerabilities in agent protocols.",
+    "pdf_url": "http://arxiv.org/pdf/2504.19678v1",
+    "published": "2025-04-28"
+  },
+  "2409.03793v3": {
+    "title": "Safeguarding AI Agents: Developing and Analyzing Safety Architectures",
+    "authors": [
+      "Ishaan Domkundwar",
+      "Mukunda N S",
+      "Ishaan Bhola",
+      "Riddhik Kochhar"
+    ],
+    "summary": "AI agents, specifically powered by large language models, have demonstrated\nexceptional capabilities in various applications where precision and efficacy\nare necessary. However, these agents come with inherent risks, including the\npotential for unsafe or biased actions, vulnerability to adversarial attacks,\nlack of transparency, and tendency to generate hallucinations. As AI agents\nbecome more prevalent in critical sectors of the industry, the implementation\nof effective safety protocols becomes increasingly important. This paper\naddresses the critical need for safety measures in AI systems, especially ones\nthat collaborate with human teams. We propose and evaluate three frameworks to\nenhance safety protocols in AI agent systems: an LLM-powered input-output\nfilter, a safety agent integrated within the system, and a hierarchical\ndelegation-based system with embedded safety checks. Our methodology involves\nimplementing these frameworks and testing them against a set of unsafe agentic\nuse cases, providing a comprehensive evaluation of their effectiveness in\nmitigating risks associated with AI agent deployment. We conclude that these\nframeworks can significantly strengthen the safety and security of AI agent\nsystems, minimizing potential harmful actions or outputs. Our work contributes\nto the ongoing effort to create safe and reliable AI applications, particularly\nin automated operations, and provides a foundation for developing robust\nguardrails to ensure the responsible use of AI agents in real-world\napplications.",
+    "pdf_url": "http://arxiv.org/pdf/2409.03793v3",
+    "published": "2024-09-03"
+  },
+  "2504.10915v2": {
+    "title": "LOKA Protocol: A Decentralized Framework for Trustworthy and Ethical AI Agent Ecosystems",
+    "authors": [
+      "Rajesh Ranjan",
+      "Shailja Gupta",
+      "Surya Narayan Singh"
+    ],
+    "summary": "The rise of autonomous AI agents, capable of perceiving, reasoning, and\nacting independently, signals a profound shift in how digital ecosystems\noperate, govern, and evolve. As these agents proliferate beyond centralized\ninfrastructures, they expose foundational gaps in identity, accountability, and\nethical alignment. Three critical questions emerge: Identity: Who or what is\nthe agent? Accountability: Can its actions be verified, audited, and trusted?\nEthical Consensus: Can autonomous systems reliably align with human values and\nprevent harmful emergent behaviors? We present the novel LOKA Protocol (Layered\nOrchestration for Knowledgeful Agents), a unified, systems-level architecture\nfor building ethically governed, interoperable AI agent ecosystems. LOKA\nintroduces a proposed Universal Agent Identity Layer (UAIL) for decentralized,\nverifiable identity; intent-centric communication protocols for semantic\ncoordination across diverse agents; and a Decentralized Ethical Consensus\nProtocol (DECP) that could enable agents to make context-aware decisions\ngrounded in shared ethical baselines. Anchored in emerging standards such as\nDecentralized Identifiers (DIDs), Verifiable Credentials (VCs), and\npost-quantum cryptography, LOKA proposes a scalable, future-resilient blueprint\nfor multi-agent AI governance. By embedding identity, trust, and ethics into\nthe protocol layer itself, LOKA proposes the foundation for a new era of\nresponsible, transparent, and autonomous AI ecosystems operating across digital\nand physical domains.",
+    "pdf_url": "http://arxiv.org/pdf/2504.10915v2",
+    "published": "2025-04-15"
+  },
+  "2501.09674v1": {
+    "title": "Authenticated Delegation and Authorized AI Agents",
+    "authors": [
+      "Tobin South",
+      "Samuele Marro",
+      "Thomas Hardjono",
+      "Robert Mahari",
+      "Cedric Deslandes Whitney",
+      "Dazza Greenwood",
+      "Alan Chan",
+      "Alex Pentland"
+    ],
+    "summary": "The rapid deployment of autonomous AI agents creates urgent challenges around\nauthorization, accountability, and access control in digital spaces. New\nstandards are needed to know whom AI agents act on behalf of and guide their\nuse appropriately, protecting online spaces while unlocking the value of task\ndelegation to autonomous agents. We introduce a novel framework for\nauthenticated, authorized, and auditable delegation of authority to AI agents,\nwhere human users can securely delegate and restrict the permissions and scope\nof agents while maintaining clear chains of accountability. This framework\nbuilds on existing identification and access management protocols, extending\nOAuth 2.0 and OpenID Connect with agent-specific credentials and metadata,\nmaintaining compatibility with established authentication and web\ninfrastructure. Further, we propose a framework for translating flexible,\nnatural language permissions into auditable access control configurations,\nenabling robust scoping of AI agent capabilities across diverse interaction\nmodalities. Taken together, this practical approach facilitates immediate\ndeployment of AI agents while addressing key security and accountability\nconcerns, working toward ensuring agentic AI systems perform only appropriate\nactions and providing a tool for digital service providers to enable AI agent\ninteractions without risking harm from scalable interaction.",
+    "pdf_url": "http://arxiv.org/pdf/2501.09674v1",
+    "published": "2025-01-16"
+  },
+  "2505.00749v1": {
+    "title": "The Coral Protocol: Open Infrastructure Connecting The Internet of Agents",
+    "authors": [
+      "Roman J. Georgio",
+      "Caelum Forder",
+      "Suman Deb",
+      "Peter Carroll",
+      "\u00d6nder G\u00fcrcan"
+    ],
+    "summary": "The Coral Protocol is an open and decentralized collaboration infrastructure\nthat enables communication, coordination, trust and payments for The Internet\nof Agents. It addresses the growing need for interoperability in a world where\norganizations are deploying multiple specialized AI agents that must work\ntogether across domains and vendors. As a foundational platform for multi-agent\nAI ecosystems, Coral establishes a common language and coordination framework\nallowing any agent to participate in complex workflows with others. Its design\nemphasizes broad compatibility, security, and vendor neutrality, ensuring that\nagent interactions are efficient and trustworthy. In particular, Coral\nintroduces standardized messaging formats for agent communication, a modular\ncoordination mechanism for orchestrating multi-agent tasks, and secure team\nformation capabilities for dynamically assembling trusted groups of agents.\nTogether, these innovations position Coral Protocol as a cornerstone of the\nemerging \"Internet of Agents,\" unlocking new levels of automation, collective\nintelligence, and business value through open agent collaboration.",
+    "pdf_url": "http://arxiv.org/pdf/2505.00749v1",
+    "published": "2025-04-30"
+  }
+}

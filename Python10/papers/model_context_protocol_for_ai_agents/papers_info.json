@@ -1,0 +1,72 @@
+{
+  "2504.19678v1": {
+    "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+    "authors": [
+      "Mohamed Amine Ferrag",
+      "Norbert Tihanyi",
+      "Merouane Debbah"
+    ],
+    "summary": "Large language models and autonomous AI agents have evolved rapidly,\nresulting in a diverse array of evaluation benchmarks, frameworks, and\ncollaboration protocols. However, the landscape remains fragmented and lacks a\nunified taxonomy or comprehensive survey. Therefore, we present a side-by-side\ncomparison of benchmarks developed between 2019 and 2025 that evaluate these\nmodels and agents across multiple domains. In addition, we propose a taxonomy\nof approximately 60 benchmarks that cover general and academic knowledge\nreasoning, mathematical problem-solving, code generation and software\nengineering, factual grounding and retrieval, domain-specific evaluations,\nmultimodal and embodied tasks, task orchestration, and interactive assessments.\nFurthermore, we review AI-agent frameworks introduced between 2023 and 2025\nthat integrate large language models with modular toolkits to enable autonomous\ndecision-making and multi-step reasoning. Moreover, we present real-world\napplications of autonomous AI agents in materials science, biomedical research,\nacademic ideation, software engineering, synthetic data generation, chemical\nreasoning, mathematical problem-solving, geographic information systems,\nmultimedia, healthcare, and finance. We then survey key agent-to-agent\ncollaboration protocols, namely the Agent Communication Protocol (ACP), the\nModel Context Protocol (MCP), and the Agent-to-Agent Protocol (A2A). Finally,\nwe discuss recommendations for future research, focusing on advanced reasoning\nstrategies, failure modes in multi-agent LLM systems, automated scientific\ndiscovery, dynamic tool integration via reinforcement learning, integrated\nsearch capabilities, and security vulnerabilities in agent protocols.",
+    "pdf_url": "http://arxiv.org/pdf/2504.19678v1",
+    "published": "2025-04-28"
+  },
+  "2503.16248v2": {
+    "title": "Real AI Agents with Fake Memories: Fatal Context Manipulation Attacks on Web3 Agents",
+    "authors": [
+      "Atharv Singh Patlan",
+      "Peiyao Sheng",
+      "S. Ashwin Hebbar",
+      "Prateek Mittal",
+      "Pramod Viswanath"
+    ],
+    "summary": "The integration of AI agents with Web3 ecosystems harnesses their\ncomplementary potential for autonomy and openness yet also introduces\nunderexplored security risks, as these agents dynamically interact with\nfinancial protocols and immutable smart contracts. This paper investigates the\nvulnerabilities of AI agents within blockchain-based financial ecosystems when\nexposed to adversarial threats in real-world scenarios. We introduce the\nconcept of context manipulation, a comprehensive attack vector that exploits\nunprotected context surfaces, including input channels, memory modules, and\nexternal data feeds.\n  Through empirical analysis of ElizaOS, a decentralized AI agent framework for\nautomated Web3 operations, we demonstrate how adversaries can manipulate\ncontext by injecting malicious instructions into prompts or historical\ninteraction records, leading to unintended asset transfers and protocol\nviolations which could be financially devastating.\n  To quantify these vulnerabilities, we design CrAIBench, a Web3\ndomain-specific benchmark that evaluates the robustness of AI agents against\ncontext manipulation attacks across 150+ realistic blockchain tasks, including\ntoken transfers, trading, bridges and cross-chain interactions and 500+ attack\ntest cases using context manipulation. We systematically assess attack and\ndefense strategies, analyzing factors like the influence of security prompts,\nreasoning models, and the effectiveness of alignment techniques.\n  Our findings show that prompt-based defenses are insufficient when\nadversaries corrupt stored context, achieving significant attack success rates\ndespite these defenses. Fine-tuning-based defenses offer a more robust\nalternative, substantially reducing attack success rates while preserving\nutility on single-step tasks. This research highlights the urgent need to\ndevelop AI agents that are both secure and fiduciarily responsible.",
+    "pdf_url": "http://arxiv.org/pdf/2503.16248v2",
+    "published": "2025-03-20"
+  },
+  "2504.16736v2": {
+    "title": "A Survey of AI Agent Protocols",
+    "authors": [
+      "Yingxuan Yang",
+      "Huacan Chai",
+      "Yuanyi Song",
+      "Siyuan Qi",
+      "Muning Wen",
+      "Ning Li",
+      "Junwei Liao",
+      "Haoyi Hu",
+      "Jianghao Lin",
+      "Gaowei Chang",
+      "Weiwen Liu",
+      "Ying Wen",
+      "Yong Yu",
+      "Weinan Zhang"
+    ],
+    "summary": "The rapid development of large language models (LLMs) has led to the\nwidespread deployment of LLM agents across diverse industries, including\ncustomer service, content generation, data analysis, and even healthcare.\nHowever, as more LLM agents are deployed, a major issue has emerged: there is\nno standard way for these agents to communicate with external tools or data\nsources. This lack of standardized protocols makes it difficult for agents to\nwork together or scale effectively, and it limits their ability to tackle\ncomplex, real-world tasks. A unified communication protocol for LLM agents\ncould change this. It would allow agents and tools to interact more smoothly,\nencourage collaboration, and triggering the formation of collective\nintelligence. In this paper, we provide the first comprehensive analysis of\nexisting agent protocols, proposing a systematic two-dimensional classification\nthat differentiates context-oriented versus inter-agent protocols and\ngeneral-purpose versus domain-specific protocols. Additionally, we conduct a\ncomparative performance analysis of these protocols across key dimensions such\nas security, scalability, and latency. Finally, we explore the future landscape\nof agent protocols by identifying critical research directions and\ncharacteristics necessary for next-generation protocols. These characteristics\ninclude adaptability, privacy preservation, and group-based interaction, as\nwell as trends toward layered architectures and collective intelligence\ninfrastructures. We expect this work to serve as a practical reference for both\nresearchers and engineers seeking to design, evaluate, or integrate robust\ncommunication infrastructures for intelligent agents.",
+    "pdf_url": "http://arxiv.org/pdf/2504.16736v2",
+    "published": "2025-04-23"
+  },
+  "2505.03864v1": {
+    "title": "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems",
+    "authors": [
+      "Qiaomu Li",
+      "Ying Xie"
+    ],
+    "summary": "Artificial intelligence is rapidly evolving towards multi-agent systems where\nnumerous AI agents collaborate and interact with external tools. Two key open\nstandards, Google's Agent to Agent (A2A) protocol for inter-agent communication\nand Anthropic's Model Context Protocol (MCP) for standardized tool access,\npromise to overcome the limitations of fragmented, custom integration\napproaches. While their potential synergy is significant, this paper argues\nthat effectively integrating A2A and MCP presents unique, emergent challenges\nat their intersection, particularly concerning semantic interoperability\nbetween agent tasks and tool capabilities, the compounded security risks\narising from combined discovery and execution, and the practical governance\nrequired for the envisioned \"Agent Economy\". This work provides a critical\nanalysis, moving beyond a survey to evaluate the practical implications and\ninherent difficulties of combining these horizontal and vertical integration\nstandards. We examine the benefits (e.g., specialization, scalability) while\ncritically assessing their dependencies and trade-offs in an integrated\ncontext. We identify key challenges increased by the integration, including\nnovel security vulnerabilities, privacy complexities, debugging difficulties\nacross protocols, and the need for robust semantic negotiation mechanisms. In\nsummary, A2A+MCP offers a vital architectural foundation, but fully realizing\nits potential requires substantial advancements to manage the complexities of\ntheir combined operation.",
+    "pdf_url": "http://arxiv.org/pdf/2505.03864v1",
+    "published": "2025-05-06"
+  },
+  "2505.08446v1": {
+    "title": "Agent-as-a-Service based on Agent Network",
+    "authors": [
+      "Yuhan Zhu",
+      "Haojie Liu",
+      "Jian Wang",
+      "Bing Li",
+      "Zikang Yin",
+      "Yefei Liao"
+    ],
+    "summary": "The rise of large model-based AI agents has spurred interest in Multi-Agent\nSystems (MAS) for their capabilities in decision-making, collaboration, and\nadaptability. While the Model Context Protocol (MCP) addresses tool invocation\nand data exchange challenges via a unified protocol, it lacks support for\norganizing agent-level collaboration. To bridge this gap, we propose\nAgent-as-a-Service based on Agent Network (AaaS-AN), a service-oriented\nparadigm grounded in the Role-Goal-Process-Service (RGPS) standard. AaaS-AN\nunifies the entire agent lifecycle, including construction, integration,\ninteroperability, and networked collaboration, through two core components: (1)\na dynamic Agent Network, which models agents and agent groups as vertexes that\nself-organize within the network based on task and role dependencies; (2)\nservice-oriented agents, incorporating service discovery, registration, and\ninteroperability protocols. These are orchestrated by a Service Scheduler,\nwhich leverages an Execution Graph to enable distributed coordination, context\ntracking, and runtime task management. We validate AaaS-AN on mathematical\nreasoning and application-level code generation tasks, which outperforms\nstate-of-the-art baselines. Notably, we constructed a MAS based on AaaS-AN\ncontaining agent groups, Robotic Process Automation (RPA) workflows, and MCP\nservers over 100 agent services. We also release a dataset containing 10,000\nlong-horizon multi-agent workflows to facilitate future research on long-chain\ncollaboration in MAS.",
+    "pdf_url": "http://arxiv.org/pdf/2505.08446v1",
+    "published": "2025-05-13"
+  }
+}

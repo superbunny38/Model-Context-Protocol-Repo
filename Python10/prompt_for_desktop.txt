@@ -1,0 +1,5 @@
+Use the fetch tool visit https://github.com/superbunny38/Model-Context-Protocol-Repo and find an interesting topic about machine learning on that website.
+
+Then research two papers on arxiv about that topic and summarize the main topics covered.
+
+Finally, generate a web based quiz application with a set of flashcards based on the key topics in the papers.
