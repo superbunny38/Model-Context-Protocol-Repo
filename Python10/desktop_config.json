@@ -1,0 +1,76 @@
+{
+    "mcpServers": {
+      "mcp-server-firecrawl": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "firecrawl-mcp"
+        ],
+        "env": {
+          "FIRECRAWL_API_KEY": "fc-494c74af715d4bd4be1be00a316acb34",
+          "FIRECRAWL_RETRY_MAX_ATTEMPTS": "5",
+          "FIRECRAWL_RETRY_INITIAL_DELAY": "2000",
+          "FIRECRAWL_RETRY_MAX_DELAY": "30000",
+          "FIRECRAWL_RETRY_BACKOFF_FACTOR": "3",
+          "FIRECRAWL_CREDIT_WARNING_THRESHOLD": "2000",
+          "FIRECRAWL_CREDIT_CRITICAL_THRESHOLD": "500"
+        }
+      },
+      "puppeteer": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-puppeteer"
+        ]
+      },
+      "Bright Data": {
+        "command": "npx",
+        "args": [
+          "@brightdata/mcp"
+        ],
+        "env": {
+          "API_TOKEN": "<insert-your-api-token-here>",
+          "WEB_UNLOCKER_ZONE": "<optional if you want to override the default mcp_unlocker zone name>",
+          "BROWSER_AUTH": "<optional if you want to enable remote browser control tools>"
+        }
+      },
+      "gdrive": {
+        "command": "/Users/chaeeunryu/Downloads/servers-main/node_modules/.bin/mcp-server-gdrive",
+        "args": [
+          "-y"
+        ],
+        "env": {
+          "GDRIVE_CREDENTIALS_PATH": "/Users/chaeeunryu/Downloads/servers-main/.gdrive-server-credentials.json"
+        }
+      },
+      "AI Sticky Notes": {
+        "command": "/Users/chaeeunryu/.local/bin/uv",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "/Users/chaeeunryu/Desktop/MCP Study/MCP-Python/Python08/mcp-server-demo/main.py"
+        ]
+      },
+      "filesystem":{
+              "command": "npx",
+              "args": [
+                  "-y",
+                  "@modelcontextprotocol/server-filesystem",
+                  "/Users/chaeeunryu/Desktop/MCP Study/MCP-Python/Python10/"
+              ]
+      },
+  
+      "research":{
+          "command": "/Users/chaeeunryu/.local/bin/uv",
+          "args": ["--directory","/Users/chaeeunryu/Desktop/MCP Study/MCP-Python/Python10/","run","research_server.py"]
+      },
+  
+      "fetch":{
+          "command":"/Users/chaeeunryu/.local/bin/uvx",
+          "args": ["mcp-server-fetch"]
+      }
+    }
+  }
