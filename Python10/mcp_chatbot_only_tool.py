@@ -45,7 +45,6 @@ def read_file_to_variable(filepath):
 
 api_file_path = "/Users/chaeeunryu/Desktop/MCP Study/key.txt"
 api_key = read_file_to_variable(api_file_path)
-print(api_key)
 
 class ToolDefinition(TypedDict):
     name: str
