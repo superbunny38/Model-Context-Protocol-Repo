@@ -55,7 +55,7 @@ class MCP_Chatbot:
             read, write = stdio_transport
             session = await self.exit_stack.enter_async_context(ClientSession(read, write))
             await session.initialize()
-
+            print(f"\n\nConnected to server {server_name}")
             try:
                 # List available tools
                 response = await session.list_tools()
@@ -66,6 +66,7 @@ class MCP_Chatbot:
                         "description": tool.description,
                         "input_schema": tool.inputSchema
                     })
+                print("Tools successfully listed")
                 
                 #List available prompts
                 prompts_response = await session.list_prompts()
@@ -75,15 +76,17 @@ class MCP_Chatbot:
                         self.available_prompts.append({
                             "name": prompt.name,
                             "description": prompt.description,
-                            "input_schema": prompt.arguments
+                            "arguments": prompt.arguments
                         })
+                print("Prompts successfully listed")
                 
                 #List available resources
                 resources_response = await session.list_resources()
                 if resources_response and resources_response.resources:
                     for resource in resources_response.resources:
-                        resource_url = str(resource.uri)
-                        self.sessions[resource_url] = session
+                        resource_uri = str(resource.uri)
+                        self.sessions[resource_uri] = session
+                print("Resources successfully listed")
             
             except Exception as e:
                 print(f"Error listing tools/prompts/resources: {e}")
@@ -164,7 +167,7 @@ class MCP_Chatbot:
         
         # print(f"DEBUG: Available methods/attributes for session object are: {dir(session)}")
         try:
-            result = await session.read_resource(url = resource_url)
+            result = await session.read_resource(uri = resource_url)#read_resource(url = resource_url)
             if result and result.contents:
                 print(f"\nResource '{resource_url}' retrieved successfully.")
                 print("Content:")
