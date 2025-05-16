@@ -8,8 +8,6 @@ import json
 import asyncio
 import nest_asyncio
 
-nest_asyncio.apply()  # Necessary for different operating systems to work in Python
-
 
 def read_file_to_variable(filepath):
     """
@@ -35,6 +33,8 @@ def read_file_to_variable(filepath):
 
 api_file_path = "/Users/chaeeunryu/Desktop/MCP Study/key.txt"
 api_key = read_file_to_variable(api_file_path)
+
+nest_asyncio.apply()  # Necessary for different operating systems to work in Python
 
 class MCP_Chatbot:
     def __init__(self):
@@ -161,9 +161,10 @@ class MCP_Chatbot:
         if not session:
             print(f"Resource '{resource_url}' not found in sessions.")
             return 
-        print(f"DEBUG: Available methods/attributes for session object are: {dir(session)}")
+        
+        # print(f"DEBUG: Available methods/attributes for session object are: {dir(session)}")
         try:
-            result = await session.get_resource(url = resource_url)
+            result = await session.read_resource(url = resource_url)
             if result and result.contents:
                 print(f"\nResource '{resource_url}' retrieved successfully.")
                 print("Content:")
