@@ -64,7 +64,7 @@ class MCP_Chatbot:
                     self.available_tools.append({
                         "name": tool.name,
                         "description": tool.description,
-                        "input_schema": tool.input_schema
+                        "input_schema": tool.inputSchema
                     })
                 
                 #List available prompts
@@ -254,7 +254,7 @@ class MCP_Chatbot:
                             print("Usage: /prompt <name> <arg1=value1> <arg2=value2>")
                             continue
                         
-                        prompt_name = parts
+                        prompt_name = parts[1]
                         args = {}
                         
                         # Parse arguments
