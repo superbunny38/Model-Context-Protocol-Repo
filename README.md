@@ -1,6 +1,16 @@
 # Model-Context-Protocol-Repo
 
+## Cheatsheet
 
+- uv init
+- uv venv
+- source .venv/bin/activate
+- uv add mcp [needed library 1] [needed library 2] ...
+
+Launch inspector:
+- npx @modelcontextprotocol/inspector uv run server.py
+
+- 
 Questions
 - Q. 하나의 서버 당 하나의 tool인건가?
 - Q. SSE 구현도 해봐야할듯
