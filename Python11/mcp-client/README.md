@@ -22,3 +22,14 @@ rm main.py
 
 # Create our main file
 touch client.py
+
+# Setting Up Your API Key
+
+### Create .env file
+touch .env
+
+### Add your key to the .env file:
+ANTHROPIC_API_KEY=<your key here>
+
+### Add .env to your .gitignore:
+echo ".env" >> .gitignore
