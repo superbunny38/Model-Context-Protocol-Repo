@@ -128,3 +128,17 @@ def get_location(lat: float, lon: float) -> str:
 # Run the server
 if __name__ == "__main__":
     mcp.run()
+    
+'''
+What happens when this server is connected to Claude Desktop:
+
+What’s happening under the hood
+When you ask a question (e.g., "What’s the weather like in San Francisco?"), the following steps occur:
+
+- The client sends your question to Claude
+- Claude analyzes the available tools and decides which one(s) to use
+- The client executes the chosen tool(s) through the MCP server
+- The results are sent back to Claude
+- Claude formulates a natural language response
+- The response is displayed to you!
+'''
